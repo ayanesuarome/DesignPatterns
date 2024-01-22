@@ -1,0 +1,6 @@
+﻿Software components should have one and only one reason to change.
+
+High cohesion and loose coupling
+
+Cohesion: level of relation between software components
+Coupling: level of dependency between software components

@@ -1,0 +1,7 @@
+﻿Software components should be open for extensions and close for modifications
+
+Closed for modification:
+adding new features to a software component should not modify the existing code.
+
+Open for extension:
+software component should be extendable to allow to add new features or behaviours

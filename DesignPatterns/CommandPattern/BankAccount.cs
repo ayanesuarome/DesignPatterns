@@ -2,30 +2,30 @@
 {
     internal class BankAccount
     {
-        private int balance;
+        private int Balance { get; set; }
         private int OverDraftLimit => -500;
 
         public void Deposit(int amount)
         {
-            balance += amount;
-            WriteLine($"Deposited ${amount}, balance is now {balance}");
+            Balance += amount;
+            WriteLine($"Deposited ${amount}, balance is now {Balance}");
         }
         
         public bool Withdraw(int amount)
         {
-            if(balance - amount < OverDraftLimit)
+            if(Balance - amount < OverDraftLimit)
             {
                 return false;
             }
 
-            balance -= amount;
-            WriteLine($"Withdrew ${amount}, balance is now {balance}");
+            Balance -= amount;
+            WriteLine($"Withdrew ${amount}, balance is now {Balance}");
             return true;
         }
 
         public override string ToString()
         {
-            return $"{nameof(balance)}: {balance}";
+            return $"{nameof(Balance)}: {Balance}";
         }
     }
 }

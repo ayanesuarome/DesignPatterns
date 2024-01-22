@@ -1,0 +1,6 @@
+﻿Clients should not be force to implement methods that they do not need.
+
+Avoid:
+- Fat interfaces
+- Interfaces with Low Cohesion
+- Blank implementations

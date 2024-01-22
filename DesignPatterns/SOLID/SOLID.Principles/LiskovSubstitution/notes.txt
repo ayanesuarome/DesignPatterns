@@ -1,0 +1,5 @@
+﻿Objects should be replaced by derived types without affecting the correctness of the program
+
+Follow two patterns:
+1. Breaking hierarchy
+2. Tell, don't ask

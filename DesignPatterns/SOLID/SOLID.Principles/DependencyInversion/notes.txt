@@ -1,0 +1,17 @@
+﻿High level modules should not depend on low level module. Both should depend on abstractions.
+
+Violation
+Product ---> SqlProductRepository
+
+SqlProductRepository should implement an interface IProductRepository
+Product should not depend on object of type SqlProductRepository. Instead it should
+has an instance of IProductRepository that calls the initializaton either using Dependency Injection Pattern or Factory Pattern.
+
+Correction
+Product ---> IProductRepository <--- SqlProductRepository
+
+
+Abstractions should not depend on details. Details should depend on abstractions.
+
+Dependency Injection
+IoC (Inversion of Control) Autofac, Spring Container

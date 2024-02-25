@@ -35,7 +35,7 @@
                     Success = bankAccount.Withdraw(amount);
                     break;
                 default:
-                    throw new ArgumentOutOfRangeException("Action not allowed");
+                    throw new ArgumentOutOfRangeException($"Action '{action}' not allowed");
             }
         }
 

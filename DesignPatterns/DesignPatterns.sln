@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "CommandPattern\CommandPattern.csproj", "{0B3CCFE5-4172-47AC-A5B2-B9981512F14D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommandPattern", "BEHAVIOUR\CommandPattern\CommandPattern.csproj", "{0B3CCFE5-4172-47AC-A5B2-B9981512F14D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{CC6A375C-E748-4B99-8D39-F44FD0DB590F}"
 EndProject
@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BEHAVIOUR", "BEHAVIOUR", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BUILDER\BuilderPattern\BuilderPattern.csproj", "{C1A7AD38-76FD-4E57-B967-595F279AA70B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "StatePattern\StatePattern.csproj", "{6DBE10D3-7C7D-4B1D-849F-59F5DC080A4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StatePattern", "BEHAVIOUR\StatePattern\StatePattern.csproj", "{6DBE10D3-7C7D-4B1D-849F-59F5DC080A4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

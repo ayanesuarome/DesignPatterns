@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 // Converts an interface into another interface client that clients expect.
-// Allow classes to work together that could not because of theri imcopatibilities.
+// Allow classes to work together that could not because of their imcopatibilities.
 
 using AdapterPattern.NetworkExample;
 using AdapterPattern.SimpleAdapter;
